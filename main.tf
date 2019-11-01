@@ -1,6 +1,7 @@
 provider "aws" {
         region = "eu-west-1"
-}
+        version = "~> 2.33"
+			}
 
 resource "aws_security_group" "default-ec2-sg" {
         name = "default-ec2-sg"
